@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*****************************************
+font-family: 'Cantata One', serif;
+font-family: 'Days One', sans-serif;
+font-family: 'Francois One', sans-serif;
+font-family: 'Varela Round', sans-serif;
+*****************************************/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#pushDown {
+	margin-top: 10rem;
+}
+
+#logo {
+	height: 5rem;
+	width: 4rem;
+}
+
+.navbar-brand {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: 'Varela Round', Helvetica,  sans-serif;
+	color: white;
+	line-height: 1.5;
+}
+
+.headFont {
+	font-family: 'Francois One', Impact, sans-serif;
+}
+/***********
+Backgrounds
+***********/
+body {
+	background-image: url(../images/backFour.jpg);
+	background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+/**
+Nav
+**/
+#navbar {
+	margin: 1rem 0;
+}
+
+#navLink {	
+	color: white;
+}
+
+#navLink:hover {
+	background-color: rgba(171, 88, 73, .3);
+}
+
+#navLink:active {
+	background-color: rgb(171, 88, 73);
+}
+
+#navColor {
+	background: rgba(0, 0, 0, .3);
+	border-color: rgba(0, 0, 0, .3);
+}
+
+#navColorTwo {
+	height: 4rem;
+	background: rgba(0, 0, 0, .3);
+	border-color: rgba(0, 0, 0, .3);
+}
+
+#logoImg {
+	height: 2rem;
+	width: 20rem;
+}
+
+/*****
+Index
+*****/
+
+#bottomPara {
+	margin: 3rem 0 5rem 0;
+}
+
+
+/*******
+Carousel
+********/
+#carousel-730135 {
+	height: 30%;
+}
+
+.item {
+	height: 30%;
+}
+
+
+/*****
+About
+*****/
+
+#jumbo {
+	margin-top: 10rem;
+	background-color: rgba(174,172,168, .7);
+}
+
+.paraBack {
+	background-color: rgba(174,172,168, .8);
+	padding: 1.5rem 0.8rem;
+	border-radius: 0.6rem;
+	margin: 2rem;
+}
+
+.pushDown {
+	margin-bottom: 7rem;
+}
+
+#pushAbout {
+	margin-bottom: 7rem;
+}
+
+/*****
+Homes
+*****/
+
+.image {
+	max-height: 200px;
+	width: 900px;
+}
+
+.header {
+	background-color: rgba(174,172,168, .7);
+	margin: 0 35% 1rem 35%;
+	border-radius: 0.6rem;
+	font-family: 'Francois One', sans-serif;
+	font-size: 3rem;
+}
+
+/******
+Contact
+******/
+
+/******
+Gallery
+******/
+
+.imageGal {
+	max-height: 200px;
+	width: 900px;
+	margin-top: 4rem;
+}
+
+.imageGalTop {
+	max-height: 200px;
+	width: 900px;
+}
+
+#pushDownTwo {
+	margin-top: 5rem;
+}
+
+@media all and (max-width: 992px) and (min-width: 601px) {
+/****
+Index
+****/
+#middlePara {
+	margin-top: 3rem;
+}
+
+#bottomPara {
+	margin-top: 3rem;
+}
+/****
+Homes
+****/
+.image {
+	max-height: inherit;
+	margin: 4rem 0;
+}
+
+.topImage {
+	margin-top: 1rem;
+}
+
+/******
+Gallery
+******/
+
+.imageGal {
+	max-height: inherit;
+	width: inherit;
+	margin-top: 4rem;
+}
+
+.imageGalTop {
+	max-height: inherit;
+	width: inherit;
+}
+
+/****
+About
+****/
+
+#pushAbout {
+	margin-bottom: 4rem;
+}
+
+}
+
+@media all and (max-width: 600px) {
+/****
+Index
+****/	
+#middlePara {
+	margin-top: 2rem;
+}
+
+#bottomPara {
+	margin-top: 2rem;
+}
+/****
+Homes
+****/
+.image {
+	max-height: inherit;
+	margin: 2rem;
+}
+
+/******
+Gallery
+******/
+
+.imageGal {
+	max-height: inherit;
+	width: inherit;
+	margin-top: 4rem;
+}
+
+.imageGalTop {
+	max-height: inherit;
+	width: inherit;
+}
+
+/****
+About
+****/
+
+#jumbo {
+	margin-bottom: 3rem;
+}
+
+#pushAbout {
+	margin-bottom: 3rem;
+}
+
+}
